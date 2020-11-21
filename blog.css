@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+}
+#navbar {
+  overflow: hidden;
+  transition: 0.2s;
+  position: fixed;
+  width: 100%;
+
+  z-index: 99;
+}
+#navbar #logo{
+transition: 0.2s;
+      margin-left:10vw;
+  margin-bottom: 5px;
+  float: left;
+}
+#overflowTest {
+  
+  color: white;
+  padding: 15px;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+ 
+}
+.cl{
+color: white;
+text-align: center;
+}
+.cr{
+	
+}
+.scrol{
+	padding: 19px;
+	padding-left: 8%;
+}
+
+.mm{
+	padding-top: 8%;
+	padding-bottom: 3%;
+}
+#head1{
+	font-family: varela round;
+	font-size: 26px;
+	line-height: 26px;
+	color: #666666;
+
+}
+#a2{
+	font-family: raleway;
+	line-height: 24px;
+	color: #666666;
+	font-size: 14px;
+
+}
+.nn{
+	padding:5%;
+}
+.xx{
+	padding:7%;
+}
+
+.h6{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px !important;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h7{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h8{
+    font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.61)!important;  
+  }

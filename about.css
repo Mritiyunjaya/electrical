@@ -1,0 +1,127 @@
+ * {box-sizing: border-box;}
+body { 
+  margin: 0;
+}
+#navbar {
+  overflow: hidden;
+  transition: 0.2s;
+  position: fixed;
+  width: 100%;
+
+  z-index: 99;
+}
+#navbar #logo{
+transition: 0.2s;
+      margin-left:10vw;
+  margin-bottom: 5px;
+  float: left;
+}
+#button{
+}
+.secone{
+	background-image: url("about-1.jpg");
+	background-size: 100% 100%;
+    
+}
+.backgrad{
+background: linear-gradient(110deg,rgb(0,29,105,.7) 50%,rgb(255, 255, 255,0) 0%);
+}
+.icononimg{
+	text-align: center;
+	padding-bottom: 30%;
+	padding-top: 30%;
+}
+.secrow{
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.seccol{
+  background-color: #F4f4f4;
+}
+.seccol:hover{
+  background-color: white;
+}
+.secttext{
+  padding-top: 4%;
+  text-align: center;
+  font-family: varela round;
+  font-size: 30px;
+  color: #666666;
+  line-height: 30px;
+}
+#a1{
+  padding-top: 3%;
+font-family: varela round;
+font-size: 22px;
+line-height: 22px;
+color: #666666;
+}
+#a2{
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.seccol i{
+padding-top: 14%;
+}
+#parallax{
+   background-image: url("about-2.jpg");
+  background-size: 100% 100%;
+
+    background-attachment: fixed;
+   
+}
+.back{
+  padding-bottom: 5%;
+}
+.secionlast{
+  text-align: center;
+  background-color: #001D69;
+  font-family: varela round;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#overflowTest {
+
+  color: white;
+  padding: 15px;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+ 
+}
+.cl{
+color: white;
+text-align: center;
+}
+.cr{
+  
+}
+.scrol{
+  padding: 19px;
+  padding-left: 8%;
+}
+.h6{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px !important;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h7{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h8{
+    font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.61)!important;  
+  }
